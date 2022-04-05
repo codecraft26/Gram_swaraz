@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/antonregular"
 
-        android:text="@string/app_name"
+        android:text="@string/apptag"
 
         android:textSize="50sp"
         app:layout_constraintBottom_toBottomOf="parent"
