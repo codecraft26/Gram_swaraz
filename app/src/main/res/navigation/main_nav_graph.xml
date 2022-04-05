@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/schemesFragment">
+
+    <fragment
+        android:id="@+id/schemesFragment"
+        android:name="dev.codecraft.gram_swaraz.ui.schemes.SchemesFragment"
+        android:label="fragment_schemes"
+        tools:layout="@layout/fragment_schemes" />
+    <fragment
+        android:id="@+id/organicFragment"
+        android:name="dev.codecraft.gram_swaraz.ui.organicfarming.OrganicFragment"
+        android:label="fragment_organic"
+        tools:layout="@layout/fragment_organic" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="dev.codecraft.gram_swaraz.ui.account.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
