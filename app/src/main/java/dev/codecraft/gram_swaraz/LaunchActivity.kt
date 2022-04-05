@@ -13,6 +13,6 @@ class LaunchActivity : AppCompatActivity() {
         Handler().postDelayed({
             startActivity(Intent(this@LaunchActivity, MainActivity::class.java))
             finish()
-        },100000)
+        },2000)
     }
 }
