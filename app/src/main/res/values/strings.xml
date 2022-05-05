@@ -6,4 +6,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="apptag">ग्राम स्वराज्य</string>
+    <string name="schemes">" योजना"</string>
+    <string name="OrganicFarming">जैविक खेती</string>
+    <string name="account">खाता</string>
 </resources>
