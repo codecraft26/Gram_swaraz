@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "858818591259",
+    "project_id": "gram-swaraz",
+    "storage_bucket": "gram-swaraz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858818591259:android:ece64df99f63083cd396be",
+        "android_client_info": {
+          "package_name": "dev.codecraft.gram_swaraz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858818591259-3timjhoeagqqgrvbvp395ac9mt648re4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT6uxPgwxlVSPWKXsJEblUxjYBdqmh_oU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "858818591259-3timjhoeagqqgrvbvp395ac9mt648re4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
