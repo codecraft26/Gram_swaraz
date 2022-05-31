@@ -5,9 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:contentPadding="8dp"
-
+    android:padding="10dp"
+    android:layout_margin="8dp"
     app:cardCornerRadius="20dp"
     android:clickable="true"
+
     android:id="@+id/cards"
     android:focusable="true"
     android:checkable="true"
