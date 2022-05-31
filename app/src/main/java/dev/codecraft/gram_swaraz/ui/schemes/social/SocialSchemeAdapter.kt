@@ -29,9 +29,7 @@ class SocialSchemeAdapter(private val SocialList:ArrayList<Scheme>):RecyclerView
     override fun onBindViewHolder(holder: SocialViewHolder, position: Int) {
         val social=SocialList[position]
         holder.title.text=social.title
-        holder.itemView.setOnClickListener{
-            Toast.makeText(,"this is toast message",Toast.LENGTH_SHORT).show()
-        }
+
 
 
     }
