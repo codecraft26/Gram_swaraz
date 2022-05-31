@@ -9,7 +9,11 @@
         android:id="@+id/schemesFragment"
         android:name="dev.codecraft.gram_swaraz.ui.schemes.SchemesFragment"
         android:label="fragment_schemes"
-        tools:layout="@layout/fragment_schemes" />
+        tools:layout="@layout/fragment_schemes" >
+        <action
+            android:id="@+id/action_schemesFragment_to_descriptonFragment"
+            app:destination="@id/descriptonFragment" />
+    </fragment>
     <fragment
         android:id="@+id/organicFragment"
         android:name="dev.codecraft.gram_swaraz.ui.organicfarming.OrganicFragment"
@@ -20,4 +24,14 @@
         android:name="dev.codecraft.gram_swaraz.ui.account.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/descriptonFragment"
+        android:name="dev.codecraft.gram_swaraz.ui.DescriptonFragment"
+        android:label="fragment_descripton"
+        tools:layout="@layout/fragment_descripton" >
+        <argument
+            android:name="inquireId"
+            app:argType="string"
+            />
+    </fragment>
 </navigation>
